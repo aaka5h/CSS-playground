@@ -4,13 +4,348 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <title>CSS Playground</title>
+    <title>Resume</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;1,300;1,400&display=swap"
+      rel="stylesheet">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+    />
     <link rel="stylesheet" href="css/index.css" />
   </head>
 
   <body>
-    <div class="welcome">
-      <h1>Welcome to your CSS playground</h1>
+    <div class="resume">
+      <div class="watermark-images">
+        <object
+          type="image/svg+xml"
+          data="assets/angular-logo.svg"
+          class="watermark-image angular-logo"
+        >
+          angular Logo
+        </object>
+        <object
+          type="image/svg+xml"
+          data="assets/react-logo.svg"
+          class="watermark-image"
+        >
+          react Logo
+        </object>
+        <!--  <object
+          type="image/svg+xml"
+          data="assets/nodejs-logo.svg"
+          class="watermark-image nodejs-logo"
+        >
+          nodejs Logo
+        </object> -->
+      </div>
+      <header class="header">
+        <div class="title-section">
+          <h1>Aakash Sharma</h1>
+          <div class="designation">Frontend Developer</div>
+        </div>
+        <nav class="header__nav">
+          <ul class="header__list">
+            <li class="header__link">
+              <a href="https://www.linkedin.com/in/aaka5h-sharma/">
+                <i class="fab fa-linkedin"></i>aaka5h-sharma</a
+              >
+            </li>
+            <li class="header__link">
+              <a href="mailto:123.aakash.sharma@gmail.com">
+                <i class="fas fa-envelope"></i>123.aakash.sharma@gmail.com</a
+              >
+            </li>
+            <li class="header__link">
+              <a href="tel:+919911636364">
+                <i class="fas fa-phone-alt"></i>+91 99 11 636364</a
+              >
+            </li>
+            <li class="header__link">
+              <a href="https://github.com/aaka5h">
+                <i class="fab fa-github"></i>aaka5h</a
+              >
+            </li>
+          </ul>
+        </nav>
+      </header>
+      <main class="container">
+        <div class="container__left">
+          <section class="section">
+            <h3 class="section__heading">Experience</h3>
+            <div class="timeline">
+              <div class="timeline__event section__item">
+                <div class="section__duration">
+                  <div class="section__duration--start">Jan 2020 —</div>
+                  <div class="section__duration--end">Present</div>
+                </div>
+                <div class="section__main">
+                  <div class="section__item-heading">
+                    <h3 class="sh--main">Associate</h3>
+                    <div class="sh-info">
+                      <ul class="sh-list">
+                        <li class="sh-list__item">Morgan Stanley, Bengaluru</li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="section__content">
+                    <!-- prettier-ignore -->
+
+                    <ul class="section__list">
+                      <li class="section__list-item">build Contract Management System for managing contracts</li>
+                      <li class="section__list-item">give business team product ideas to take</li>
+                      <li class="section__list-item">lead the team for frontend development</li>
+                      <li class="section__list-item">write reusable packages for projects</li>
+                      <li class="section__list-item">agile development in team across time zones</li>
+                      <!-- <li class="section__list-item"></li> -->
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="timeline__event section__item">
+                <div class="section__duration">
+                  <div class="section__duration--start">Jul 2018 —</div>
+                  <div class="section__duration--end">Jan 2020</div>
+                </div>
+                <div class="section__main">
+                  <div class="section__item-heading">
+                    <h3 class="sh--main">Software Engineer</h3>
+                    <div class="sh-info">
+                      <ul class="sh-list">
+                        <li class="sh-list__item">
+                          EX2 Solutions India, Faridabad
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="section__content">
+                    <!-- prettier-ignore -->
+                    <ul class="section__list">
+                      <li class="section__list-item">build homluv.com</li>
+                      <li class="section__list-item">make app SEO friendly</li>
+                      <li class="section__list-item">build angular with SSR</li>
+                      <li class="section__list-item">optimizations for mobile and slow networks</li>
+                      <li class="section__list-item">create plugins (eg. sliders,custom animation) for Drupal sites</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="timeline__event section__item">
+                <div class="section__duration">
+                  <div class="section__duration--start">Jan 2018 —</div>
+                  <div class="section__duration--end">Jul 2018</div>
+                </div>
+                <div class="section__main">
+                  <div class="section__item-heading">
+                    <h3 class="sh--main">Engineering Intern</h3>
+                    <div class="sh-info">
+                      <ul class="sh-list">
+                        <li class="sh-list__item">
+                          EX2 Solutions India, Faridabad
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="section__content">
+                    <!-- prettier-ignore -->
+                    <ul class="section__list">
+                      <li class="section__list-item">work on JavaScript part of Drupal 8 project</li>
+                      <li class="section__list-item">create a custom image mapping js Drupal Module</li>
+                      <li class="section__list-item">customize admin panel to suit our needs</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <section class="section">
+            <h3 class="section__heading">Projects</h3>
+
+            <div class="section__item">
+              <div class="section__duration"></div>
+              <div class="section__main">
+                <div class="section__item-heading">
+                  <h3 class="sh--main">Contract Management System</h3>
+                  <div class="sh-info">
+                    <ul class="sh-list">
+                      <li class="sh-list__item">angular</li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="section__content">
+                  <p class="section__description">
+                    Application to allow create contracts between Financial
+                    Advisors and Institutions for their advisory. Creates a
+                    legal contract. Allows Advisors to move existing contracts
+                    from legacy application to CMS.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="section__item">
+              <div class="section__duration"></div>
+              <div class="section__main">
+                <div class="section__item-heading">
+                  <h3 class="sh--main">
+                    homluv.com
+                  </h3>
+                  <div class="sh-info">
+                    <ul class="sh-list">
+                      <li class="sh-list__item">
+                        angular
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="section__content">
+                  <p class="section__description">
+                    Build upon BHI API to find the best home that suits your
+                    need within minutes just by luving homes of your liking.
+                    homluv was built SEO and performance in mind via
+                    Server-Side-Render and SEO techniques. Recommendation engine
+                    and categorization of images is also build by our Machine
+                    Learning Team at EX2.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="section__item">
+              <div class="section__duration"></div>
+              <div class="section__main">
+                <div class="section__item-heading">
+                  <h3 class="sh--main">BDXWEB</h3>
+                  <div class="sh-info">
+                    <ul class="sh-list">
+                      <li class="sh-list__item">
+                        Drupal 8 (php), JS (backbone.js, jQuery)
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="section__content">
+                  <p class="section__description">
+                    A site building tool (CMS) build using Drupal 8 used to run
+                    websites of 100+ builder under the BHI umbrella. Provides
+                    customer to view all of housing plans available with the
+                    builder and connect them with builder for sale/purchase
+                    using other products by EX2. BDXWEB also integrates VR, AR
+                    projects at EX2.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </section>
+        </div>
+        <div class="container__right">
+          <section class="section section--skill">
+            <h3 class="section__heading">Skills</h3>
+            <div class="section__item">
+              <div class="section__item-heading">
+                <ul class="skill-list">
+                  <li class="skill" id="js">
+                    <div class="skill-title">
+                      <h5 class="skill-title__text">JavaScript</h5>
+                      <div class="skill-meter">
+                        <div class="skill-meter__progress"></div>
+                      </div>
+                    </div>
+                    <p class="skill__desc">reactjs, angular, jQuery</p>
+                  </li>
+                  <li class="skill" id="css">
+                    <div class="skill-title">
+                      <h5 class="skill-title__text">CSS</h5>
+                      <div class="skill-meter">
+                        <div class="skill-meter__progress"></div>
+                      </div>
+                    </div>
+                    <p class="skill__desc">
+                      SCSS, flexbox, css-grid, BEM, frameworks
+                    </p>
+                  </li>
+                  <li class="skill" id="git">
+                    <div class="skill-title">
+                      <h5 class="skill-title__text">git</h5>
+                      <div class="skill-meter">
+                        <div class="skill-meter__progress"></div>
+                      </div>
+                    </div>
+                    <p class="skill__desc"></p>
+                  </li>
+                  <li class="skill" id="problem-solving">
+                    <div class="skill-title">
+                      <h5 class="skill-title__text">problem solving</h5>
+                      <div class="skill-meter">
+                        <div class="skill-meter__progress"></div>
+                      </div>
+                    </div>
+                    <!-- <p class="skill__desc">SCSS, flexbox, grid, modernizer</p> -->
+                  </li>
+                  <!-- <li class="skill" id="mongo-db">
+                    <div class="skill-title">
+                      <h5 class="skill-title__text">mongoDB</h5>
+                      <div class="skill-meter">
+                        <div class="skill-meter__progress"></div>
+                      </div>
+                    </div>
+                  </li> -->
+                  <li class="skill" id="sw-design">
+                    <div class="skill-title">
+                      <h5 class="skill-title__text">software design</h5>
+                      <div class="skill-meter">
+                        <div class="skill-meter__progress"></div>
+                      </div>
+                    </div>
+                    <p class="skill__desc">redux pattern, observer pattern</p>
+                  </li>
+                </ul>
+              </div>
+              <div class="section__content"></div>
+            </div>
+          </section>
+          <section class="section section--education">
+            <h3 class="section__heading">Education</h3>
+            <div class="section__item">
+              <div class="section__item-heading">
+                <h3 class="sh--main">Bachelors in CS</h3>
+                <div class="sh-info">
+                  <ul class="sh-list">
+                    <li class="sh-list__item">
+                      Manav Rachna College of Engineering, <b>78.8%</b>
+                    </li>
+                    <li class="sh-list__item"></li>
+                  </ul>
+                </div>
+                <div class="section__duration">
+                  Aug 2014 — Aug 2018
+                </div>
+              </div>
+            </div>
+
+            <div class="section__item">
+              <div class="section__item-heading">
+                <h3 class="sh--main">Class 12 | Non-Medical</h3>
+                <div class="sh-info">
+                  <ul class="sh-list">
+                    <li class="sh-list__item">
+                      D.A.V. Sec 14 Faridabad, <b>89.2%</b>
+                    </li>
+                  </ul>
+                </div>
+                <div class="section__duration">
+                  2014
+                </div>
+              </div>
+            </div>
+          </section>
+        </div>
+      </main>
     </div>
+
+    <script src="./js/index.js"></script>
   </body>
 </html>
